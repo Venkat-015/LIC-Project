@@ -1,0 +1,35 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #e8f1f8;
+  }
+  
+  .banner-section {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .banner-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .banner-section p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
